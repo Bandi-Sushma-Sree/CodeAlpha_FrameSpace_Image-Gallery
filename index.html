@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Image Gallery - 150+ Photos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <i class="fas fa-camera-retro"></i>
+                    Frame Space - Image Gallery
+                </h1>
+                <p class="hero-subtitle">
+                    Discover 150+ stunning photographs from around the world with our interactive gallery experience
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-images">150+</span>
+                        <span class="stat-label">Photos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">Categories</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4K</span>
+                        <span class="stat-label">Quality</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <h2 class="section-title">Explore Our Collection</h2>
+                <p class="section-subtitle">Filter by category to find exactly what you're looking for</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-th"></i> All Photos (<span id="all-count">0</span>)
+                    </button>
+                    <button class="filter-btn" data-filter="nature">
+                        <i class="fas fa-leaf"></i> Nature (<span id="nature-count">0</span>)
+                    </button>
+                    <button class="filter-btn" data-filter="architecture">
+                        <i class="fas fa-building"></i> Architecture (<span id="architecture-count">0</span>)
+                    </button>
+                    <button class="filter-btn" data-filter="portrait">
+                        <i class="fas fa-user"></i> Portrait (<span id="portrait-count">0</span>)
+                    </button>
+                    <button class="filter-btn" data-filter="abstract">
+                        <i class="fas fa-palette"></i> Abstract (<span id="abstract-count">0</span>)
+                    </button>
+                    <button class="filter-btn" data-filter="street">
+                        <i class="fas fa-road"></i> Street (<span id="street-count">0</span>)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Images will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Counter -->
+    <div class="image-counter" id="image-counter">
+        Showing: <span id="visible-count">0</span> images
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <img class="lightbox-image" id="lightbox-img" src="/placeholder.svg" alt="">
+            <button class="lightbox-close" id="lightbox-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="lightbox-nav lightbox-prev" id="lightbox-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-nav lightbox-next" id="lightbox-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="lightbox-info" id="lightbox-info">
+                <div class="lightbox-title" id="lightbox-title"></div>
+                <div class="lightbox-category" id="lightbox-category"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>FrameScape</h3> 
+                <h3> Image Gallery</h3>
+                <p>Showcasing the world's most beautiful photography</p>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+                <p>&copy; 2024 Professional Gallery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
