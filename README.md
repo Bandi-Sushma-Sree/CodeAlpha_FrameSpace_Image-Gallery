@@ -70,20 +70,40 @@
 
 ---
 
-## 📁 **Project Structure**
-FrameSpace-Image Gallery/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── assets/
-│ └── screenshots/
-│ ├── screenshot1.png
-│ ├── screenshot2.png
-│ ├── screenshot3.png
-│ ├── screenshot4.png
-│ └── screenshot5.png
-└── README.md
+
+---
+
+## 🚀 **How to Run**
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Bandi-Sushma-Sree/CodeAlpha_FrameSpace_Image-Gallery.git
+    ```
+
+2. Navigate to the folder:
+    ```bash
+    cd CodeAlpha_FrameSpace_Image-Gallery
+    ```
+
+3. Open `index.html` in your browser.
+
+---
+
+## 👩‍💻 **Author**
+
+Made with ❤️ by **Bandi Sushma Sree**
+
+[🔗 GitHub Profile](https://github.com/Bandi-Sushma-Sree)
+
+---
+
+## 📜 **License**
+
+This project is open-sourced under the [MIT License](LICENSE).
+
+---
+
+⭐ **If you like this project, give it a star!**
 
 
 
