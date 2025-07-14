@@ -79,15 +79,12 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Bandi-Sushma-Sree/CodeAlpha_FrameSpace_Image-Gallery.git
+    git clone https://github.com/Bandi-Sushma-Sree/FrameSpace_Image-Gallery.git
     ```
 
-2. Navigate to the folder:
-    ```bash
-    cd CodeAlpha_FrameSpace_Image-Gallery
-    ```
 
-3. Open `index.html` in your browser.
+
+2. Open `index.html` in your browser.
 
 ---
 
