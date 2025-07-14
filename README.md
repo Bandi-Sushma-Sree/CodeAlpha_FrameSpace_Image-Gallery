@@ -1,8 +1,6 @@
-# CodeAlpha_FrameSpace_Image-Gallery
-📸 Image Gallery Project An elegant, responsive image gallery built using HTML, CSS, and JavaScript. This project features intuitive navigation with lightbox functionality, next/previous controls, hover effects, and smooth transitions.  it also includes optional image filtering by categories for enhanced user experience
 # 📸 Frame Space – Image Gallery
+ Image Gallery Project An elegant, responsive image gallery built using HTML, CSS, and JavaScript. This project features intuitive navigation with lightbox functionality, next/previous controls, hover effects, and smooth transitions.  it also includes optional image filtering by categories for enhanced user experience
 
-**Frame Space – Image Gallery** is a modern, interactive image gallery web application featuring over 150 stunning photos from around the world. Users can browse, filter images by category, and view photos in a full-screen lightbox for a captivating experience.
 
 
 ## 🎯 **Features**
